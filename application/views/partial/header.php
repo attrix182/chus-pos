@@ -128,7 +128,7 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand hidden-sm" href="<?php echo site_url(); ?>">SISTEMA DE GESTION</a>
+					<a class="navbar-brand hidden-sm" href="<?php echo site_url(); ?>">CHUS</a>
 				</div>
 
 				<div class="navbar-collapse collapse">
