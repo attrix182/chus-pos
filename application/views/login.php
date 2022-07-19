@@ -25,12 +25,12 @@
 				<?php endif; ?>
 
 				<div id="login_form">
-					<div class="input-group">
+					<div class="input-group" style="    margin-bottom: 10px;">
 						<span class="input-group-addon input-sm"><span class="glyphicon glyphicon-user"></span></span>
 						<input class="form-control" placeholder="<?php echo $this->lang->line('login_username')?>" name="username" type="text" size=20 autofocus></input>
 					</div>
 
-					<div class="input-group" style="    margin-bottom: 10px;">
+					<div class="input-group" >
 						<span class="input-group-addon input-sm"><span class="glyphicon glyphicon-lock"></span></span>
 						<input class="form-control" placeholder="<?php echo $this->lang->line('login_password')?>" name="password" type="password" size=20></input>
 					</div>
