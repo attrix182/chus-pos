@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div id="logo" align="center"><img   width="180" src="<?php echo base_url();?>/images/logo.png">
+	<div id="logo" align="center"><img   width="180" src="<?php echo base_url();?>/images/logo2.png">
 	<h1>Iniciar sesion</h1>
 	</div>
 	<div id="login">
@@ -30,7 +30,7 @@
 						<input class="form-control" placeholder="<?php echo $this->lang->line('login_username')?>" name="username" type="text" size=20 autofocus></input>
 					</div>
 
-					<div class="input-group">
+					<div class="input-group" style="    margin-bottom: 10px;">
 						<span class="input-group-addon input-sm"><span class="glyphicon glyphicon-lock"></span></span>
 						<input class="form-control" placeholder="<?php echo $this->lang->line('login_password')?>" name="password" type="password" size=20></input>
 					</div>
